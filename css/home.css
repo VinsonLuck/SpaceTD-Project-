@@ -1,0 +1,595 @@
+
+@font-face{
+    font-family: exofont;
+    src:url(/Font/Exo-VariableFont_wght.ttf);
+}
+
+.HomePage{
+    margin-top:91px;
+ }
+.WelcomeContainer{
+    background-image:url(/image/Welcome\ Rocket.png);
+
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+   
+}
+
+
+#WelcomeText{
+    font-family: exofont;
+    text-shadow: -6px 8px #00000050;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 130%;
+    color:white;
+    display:flex;
+   justify-content: center;
+   padding-top:26vh;
+    text-align: center;
+}
+
+
+
+.Journey{
+    color:grey;
+}
+
+.WelcomeSpaceTd{
+    display:flex;
+    justify-content:center;
+}
+
+.spacetdblack {
+    
+   display: flex;
+   justify-content: center;
+    height:97px;
+    box-sizing: border-box;
+}
+
+.spacetdblack img{
+    width:549px;
+    border-radius:49px;
+    box-sizing: border-box;
+}
+
+.welcomespacetdlogo {
+   display:flex;
+   justify-content:center;
+}
+
+.welcomespacetdlogo img{
+    display:flex;
+    align-items: center;
+    width:35rem;
+   margin-top:-150px;
+  
+}    
+
+.arrow{
+    display:flex;
+    justify-content: center;
+    margin-top:-85px;
+}
+
+
+/* spacetd profile */
+.ProfileContainer{
+   height:100%;
+   width:100%;
+}
+
+
+.spacetdlogoprofile{
+display:flex;
+justify-content: center;
+padding-top:55px;
+padding-bottom:40px;
+}
+
+.spacetdlogoprofile img{
+    display:flex;
+    
+    width: 56%;
+   
+}
+.profileparagraph{
+    display :flex;
+    justify-content: center;
+}
+
+.profileparagraph p{
+    display:flex;
+    font-family:exofont;
+    color:white;
+    font-size:154%;
+    line-height: 33.23px;
+    font-weight:400;
+    width:1297px;
+    text-align: center;
+    margin-left: 71px;
+    margin-right:72px;
+}
+
+.NumberSpaceTd{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-family:exofont;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight:700;
+   margin-top:10px;
+    color:white;
+    
+}
+
+
+.launches h1{
+    margin-top:10px;
+    margin-bottom:10px;
+     font-weight: 700;   
+   
+}
+
+.launches h2{
+font-family: exofont;
+font-weight:700;
+font-size:2rem;
+text-align: center;
+
+background-color:black;
+border-radius: 33px;
+width:200px;
+
+outline-color:white;
+outline-width:6px;
+outline-style: solid;
+
+  margin-left:10%;
+    line-height: 60px;
+}
+
+
+.landings h1{
+    margin-top:10px;
+    margin-bottom:10px;
+     font-weight: 700;   
+}
+
+.landings h2{
+    font-family: exofont;
+    font-weight:700;
+    font-size:2rem;
+    text-align: center;
+    
+    background-color:black;
+    border-radius: 33px;
+    width:200px;
+    
+    outline-color:white;
+    outline-width:6px;
+    outline-style: solid;
+    
+      margin-left:10%;
+        line-height: 60px;
+}
+
+
+
+.reflights h1{
+   margin-top:10px;
+   margin-bottom:10px;
+    font-weight: 700;    
+}
+
+.reflights h2{
+    font-family: exofont;
+    font-weight:700;
+    font-size:2rem;
+    text-align: center;
+    
+    background-color:black;
+    border-radius: 33px;
+    width:200px;
+    
+    outline-color:white;
+    outline-width:6px;
+    outline-style: solid;
+    
+      margin-left:10%;
+        line-height: 60px;
+}
+
+.vision{
+    display:flex;
+    justify-content: center;
+}
+
+.vision h1{
+    text-align: center;
+    background-color:#525050;
+    margin-top:10%;
+    border-radius: 33px;
+    width: 13rem;
+    line-height:4.4rem;
+    font-size:3rem;
+    font-family:myfont;
+    font-weight:700;
+    font-style:normal;
+    outline-color: white;
+    outline-width: 2px;
+    outline-style: solid;
+}
+
+.quotes{
+    font-size:2vw;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-family:exofont;
+    color:white;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:1.4%;
+    margin-bottom: 10%;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+}
+
+/* recentlaunch */
+.RecentLaunchContainer{
+    margin-top:10px;
+    width:100%;
+    height:160%;
+    margin-bottom:10vh;
+}
+
+.recentlaunchword{
+    display:flex;
+    
+}
+
+.recentlaunchword h1{
+  padding-bottom:20px;
+    margin-left:3.0vw;
+    margin-top:57px;
+    font-family:exofont;
+    font-style:normal;
+    font-weight:400;
+    color:white;
+    font-size:40px;
+    
+    text-decoration-line: underline;
+    text-underline-offset: 21px;
+    text-decoration-thickness: 6px;
+}
+
+.videocontainer{
+    width:100%;
+   display:flex;
+   position:relative;
+}
+
+.videofalcon9{
+    margin-top:10px;
+    margin-left:3%;
+   
+   width:60rem;
+   height:35rem;
+  
+}
+
+.spacetdlogovideo{
+   position:absolute;
+   display:flex;
+   left:3.5vw;
+   top:3vw;
+}
+
+.spacetdlogovideo img{
+    width:25%;
+}
+
+.missionnamevideo{
+    position:absolute;
+    top:120px;
+    left:400px;
+    width:50%;
+ 
+}
+
+.missionnamevideo h1{
+    font-family: exofont;
+    color:white;
+    font-size:70px;
+    font-weight:700px;
+}
+
+
+.missionnamevideo h2{
+    font-family:exofont;
+    font-family:exofont;
+    font-weight: 400;
+    color:white;
+font-size:30px;
+margin-left:300px;
+}
+
+.videolink{
+    position:absolute;
+   
+    
+}
+
+.missionnamevideo h3{
+    padding-top:1vw;
+    margin-left:300px;
+}
+
+.missionnamevideo h3 a{
+    color:white;
+    font-weight:400;
+    font-family:exofont;
+    font-size:2vw;
+    text-decoration: none;
+
+    background-color: black;
+    outline-color:white;
+    outline-width:2px;
+    outline-style: solid;
+    padding: 4px 8px 4px 8px;
+}
+
+.missionnamevideo h3 a:hover{
+    font-weight:700;
+}
+
+
+
+.aboutthelaunchtitle{
+  
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+    margin-top:0.5%;
+
+}
+
+.aboutthelaunchtitle h1{
+    display:flex;
+   font-family:exofont;
+   font-size:4vw;
+    
+    color:white;
+    text-align: center;
+    line-height: 80px;
+    justify-content: center;
+}
+
+.aboutthelaunchtitle h2{
+
+    display:flex;
+    justify-content: center;
+    color:black;
+    background-color: #D9d9d9;
+    border-radius:11px;
+    font-size:3.5vw;
+    font-family: exofont;
+
+    height:80px;
+    text-align: center;
+    align-items: center;
+}
+
+.aboutthelaunchtitle p{
+   
+    color:white;
+    margin-right: 4rem;
+    margin-left:5rem;
+    font-size: 2vw;
+    font-weight: 400;
+    font-family: exofont;
+    line-height:3vw;
+}   
+
+.aboutthelaunchtitle h3{
+    font-family: exofont;
+    color:black;
+ 
+    font-size:30px;
+    font-weight:400;
+    background-color: white;
+    border-radius: 35px;
+    width:12rem;
+   text-align: center;
+   
+   padding: 5px 10px 5px 10px;
+   outline-style: solid;
+   outline-color:#3c3b3b;
+   outline-width: 7px;
+}
+
+.aboutthelaunchtitle h3:hover{
+    outline-color:#433645;
+    font-weight: 700;
+}
+
+.OurSolarSystem{
+    display:block;
+    width:100%;
+    height:100%;
+    margin-top:1vw;
+    color:white;
+    font-family: exofont;
+    font-style: normal;
+    font-weight:700;
+}
+
+.oursolarsystemword{
+   display:flex;
+   justify-content: center;
+}
+
+.EarthMercuryMars{
+    display:flex;
+ justify-content: center;
+ margin-left:5%;
+ margin-top:2%;
+}
+
+.earth{
+    width:20%;
+    height:20%;
+    color:grey;
+}
+
+.mercury{
+    width:25%;
+    height: 60%;
+    margin-top:1%;
+}
+
+.mars{
+    width:35%;
+    margin-left:-12%
+}
+
+.EarthMercuryMarsWord{
+   font-size:1.5vw;
+   display:flex;
+   justify-content: space-evenly;
+   margin-left:13vw;
+   margin-right:15vw;
+}
+
+
+
+
+
+
+.UranusSunSaturn{
+ display:flex;
+ justify-content: center;
+ margin-left:8%;
+ margin-top:2%;
+}
+
+.Uranus{
+    width:23%;
+    height:50%;
+}
+
+.Sun{
+    width:28%;
+    height: 10%;
+    margin-top:1%;
+    margin-left:-3%;
+}
+
+.Saturn{
+    width:40%;
+    margin-left:-12%;
+    transform:rotate(-30deg)
+}
+
+.UranusSunSaturnWord{
+   
+    font-size:1.5vw;
+    display:flex;
+    justify-content: space-evenly;
+    margin-left:13vw;
+    margin-right:11vw;
+}
+
+
+
+
+
+.VenusJupiterNeptunus{
+    display:flex;
+    justify-content: center;
+    margin-left: 4%;
+    margin-top:2%;
+}
+   
+.Venus{
+       width:21%;
+       height:50%;
+}
+   
+.Jupiter{
+       width:21%;
+       height: 10%;
+       
+       
+      
+}
+   
+.Neptunus{
+       width:30%;
+       margin-left:-5%;
+
+}
+   
+.VenusJupiterNeptunusWord{
+      
+    font-size:1.5vw;
+    display:flex;
+    justify-content: space-evenly;
+    margin-left:15vw;
+    margin-right:11vw;
+   
+}
+
+
+.footer{
+  margin-top:5%;
+  bottom:0;
+    
+    width:100%;
+}
+
+.footer nav{
+background-color:black;
+height:58px;
+width:100%;
+display:flex;
+justify-content: space-around;
+text-align: center;
+}
+
+.footer nav li{
+    margin-top:15px;
+    
+    display:inline-block;
+    color:#b2a4a4;
+    text-decoration: none;
+    font-family: myfont;
+    font-weight:700;
+    font-size:20px;
+   
+    
+}
+
+.footer nav li a{
+    color:#b2a4a4;
+    text-decoration: none;
+}
+.footer nav a img{
+    width:11px;
+   
+}
+
+
+
+

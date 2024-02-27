@@ -1,0 +1,169 @@
+*{
+    padding : 0;
+    margin : 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/image/web-background.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    overflow:hidden;
+    z-index:10000;
+}
+
+nav{
+    background-color: black;
+    height: 91px;
+    width:100%;    
+ }
+
+@font-face{
+    font-family: myFont;
+    src:url(/Font/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face{
+    font-family:jacques;
+    src:url(/Font/JacquesFrancois-Regular.ttf);
+}
+@font-face {
+    font-family: iceland;
+    src: url(/Font/Iceland-Regular.ttf);
+}
+
+@font-face{
+    font-family: exofont;
+    src:url(/Font/Exo-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family:k2d;
+    src:url(/Font/K2D-Regular.ttf);
+}
+@font-face{
+    font-family:myeungjo;
+    src:url(/Font/JejuMyeongjo-Regular.ttf);
+}
+
+nav ul{
+    font-family: myFont;
+    float:right;
+    margin-right:18px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 103px;
+    margin: 0 12.5px;
+}
+
+nav ul li a{
+    color:white;
+    font-style: normal;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+nav ul li a.registerac{
+    background-color: #767376;
+    border-radius: 19px;
+    padding: 8px 6px 8px 6px;
+ 
+    
+}
+
+ul.active, a:hover{
+    color:grey;
+    text-decoration:underline;
+    text-underline-offset: 4px;
+    transition:ease 0.7s;
+}
+
+.registerac:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.active{
+    color:grey;
+    text-decoration: none;
+    pointer-events: none;
+
+}
+
+.checkbtn{
+   cursor:pointer;
+   float: right;
+   display:none;
+}
+
+.fasfa-bars{
+    width: 50px;
+    height: 30px;
+    margin: 30px 15px;
+}
+
+#check{
+    display:none;
+}
+
+@media(max-width:908px){
+    nav ul li a{
+        font-size: 16px;
+    }
+    nav ul li {
+        line-height: 95px;
+    }
+}
+
+@media(max-width:775px){
+    .checkbtn{
+        display:block;
+    }
+    .spacetdlogo{
+        width: 200px;
+        height: 140px;
+    }
+    ul{
+        position:fixed;
+        width: 100%;
+        height:50;
+        background:black;
+        top: -1000px;
+        text-align:center;
+        opacity:0.94;
+        transition: all 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        line-height:70px;
+        border-bottom: 1px solid white;
+    }
+    nav ul li a{
+        font-size:20px;
+    }
+    
+    #check:checked ~ ul{
+        top: 90px;
+        z-index:3;
+    }
+
+    nav ul li a.registerac{
+        background:none;
+    }
+
+
+}
+
+
+

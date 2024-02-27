@@ -1,0 +1,245 @@
+@media(max-width:1145px){
+    .WelcomeText img{
+        width:35vw;
+    }
+
+    .WelcomeContainer h1{
+        margin-left:4vw;
+        margin-top:30vh;
+        font-size:10vw;
+    }
+    .welcomearrow{
+        display:none;
+    }
+}
+
+@media(max-width:635px){
+    .WelcomeText img{
+        margin-top:70vh;
+        width:40vw;
+    }
+    .WelcomeContainer h1{
+        margin-top:1vh;
+        font-size:12vw;
+    }
+    .welcomearrow{
+        display:none;
+    }
+}
+
+@media(max-width:600px){
+    .astronaut{
+        display:none;
+    }
+    .astronotterbangs{
+        display:none;
+    }
+    .AstronautContainer{
+        display:flex;
+        width:100%;
+        margin-left:4vw;
+    }
+    .Gravity{
+        margin:none;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left:50vw;
+        margin-top:10vw;
+        width:40vw;
+    }
+
+    .GravityExpedition{
+        margin-left:8vw;
+    }
+
+    .GravityExpedition h1{
+        outline-width: 1vw;
+
+    }
+    .Pgravity p{
+        display:none;
+    }
+
+    .kebulan{
+        margin-top:6vw;
+        width:60vw;
+        height:50vw;
+        margin-left:5vw;
+        outline-style: solid;
+        outline-color: grey;
+        outline-width:1vw;
+    }
+
+    .GravityExpedition p{
+        margin-left:0vw;
+        margin-right:0vw;
+        margin-top:5vw;
+        text-align: center;
+    }
+
+    .flightduration{
+        display:flex;
+        justify-content: center;
+        margin-left:-51vw;
+    }
+    
+    .flightduration a{
+        font-size:5vw;
+        width:50vw;
+        height:17vw;
+        padding-top:2vw;
+    }
+
+
+    /* strangelife */
+    
+    .StrangeLife{
+        margin:none;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left:0vw;
+        margin-top:20vw;
+    }
+    .StrangeLifeExpedition{
+        display:flex;
+        flex-direction: column;
+        margin-left:20vw;
+    }
+  
+    .StrangeLifeTitle{
+        margin:none;
+        margin-top:0vw;
+        margin-top:5vw;
+        margin-left:0vw;
+        margin-right:40vw;
+    }
+    .StrangeLifeTitle h1{
+        margin-left:0vw;
+        margin-right:-17vw;
+        text-align: center;
+    }
+    .StrangeParagraph p{
+        display:none;
+    }
+    
+    .strangenextinformation{
+        display:none;
+    }
+    .StrangeLifeExpedition h1{
+        outline-width:1vw;
+    }
+
+    .StrangeLifePhoto img{
+       
+        margin-top:6vw;
+        width:60vw;
+        height:50vw;
+      margin-left:-5.8vw;
+        outline-style: solid;
+        outline-color: orange;
+        outline-width:1vw;
+    }
+
+    .StrangeFlightDuration{
+        display:flex;
+        justify-content: center;
+        margin-left:-15vw;
+    }
+    
+    .StrangeFlightDuration a{
+        font-size:5vw;
+        width:50vw;
+        height:17vw;
+        padding-top:2vw;
+    }
+
+
+    /* OrbitSpace */
+    
+    .Orbit{
+        margin-top:20vw;
+    }
+    .OrbitExpedition img{
+        display:none;
+    }
+    .OrbitExpedition h1{
+        outline-width: 1vw;
+    }
+    .OrbitExpeditionPhoto img{
+        margin-top:6vw;
+        margin-left:20vw;
+        width:60vw;
+        height:50vw;
+        outline-color:darkblue;
+        outline-style: solid;
+        outline-width: 1vw;
+    }
+    
+    .OrbitInformation{
+        display:none;
+    }
+    
+    .OrbitExpeditionTitle{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .OrbitMotto{
+        display:flex;
+        margin-left:2vw;
+        margin-right:vw;
+        margin-top:5vw;
+        margin-bottom:2vw;
+    }
+    .OrbitMotto h1{
+        margin-left:0;
+        text-align: center;
+    }
+
+    .OrbitFlightDuration a{
+        display:flex;
+        justify-content: center;
+        margin-left:25vw;
+        font-size:5vw;
+        width:50vw;
+        height:17vw;
+        padding-top:2vw;
+    }
+    
+    .flightduration a{
+        font-size:5vw;
+        width:50vw;
+        height:17vw;
+        padding-top:2vw;
+    }
+
+    .JoinUs a{
+       display:none;
+    }
+}
+
+@media(max-width:768px){
+    .footer nav a{
+        margin-top:3vw;
+    }
+}
+
+@media(max-width:700px){
+    .footer nav li{
+        font-size:15px;
+    }
+}
+
+@media(max-width:580px){
+    .footer nav li a{
+        font-size:12px;
+    }
+}
+
+@media(max-width:397px){
+    .footer nav li a{
+        font-size:3vw;
+    }
+}

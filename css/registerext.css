@@ -1,0 +1,131 @@
+.MemberPage{
+    margin-top:10vh;
+    display:flex;
+    justify-content: center;
+}
+
+.membercontainer{
+   margin-top:7.7vh;
+    align-items: center;
+   
+    height:40vw;
+    width:73vw;
+    background-image: url(/image/registerext.jpg);
+    background-position: center;
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    border-radius: 46px;
+}
+
+.membercontainer img{
+width:40vw;
+margin-top:8vw;
+}
+
+.membercontainer h1{
+    font-family:myfont;
+    color:white;
+    opacity:0.8;
+    font-weight: 400;
+    font-size:3vw;
+}
+
+.membercontainer h2{
+    font-family:myfont;
+    color:white;
+    opacity:0.8;
+    font-weight: 700;
+    font-size:3vw;
+    background-color:#4682b4;
+    border-radius:20px;
+    width:37vw;
+    text-align: center;
+}
+
+.membercontainer h3{
+    font-family:myfont;
+    color:white;
+    
+    font-weight: 400;
+    font-size:2vw;
+}
+
+.footer{
+  position:absolute;
+    bottom:0;
+      
+      width:100%;
+  }
+  
+  .footer nav{
+  background-color:black;
+  height:58px;
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+  }
+  
+  .footer nav li{
+      margin-top:15px;
+      
+      display:inline-block;
+      color:#b2a4a4;
+      text-decoration: none;
+      font-family: myfont;
+      font-weight:700;
+      font-size:20px;
+     
+      
+  }
+  
+  .footer nav li a{
+      color:#b2a4a4;
+      text-decoration: none;
+  }
+  .footer nav a img{
+      width:11px;
+     
+  }
+
+@media(max-width:768px){
+    .footer nav a{
+        margin-top:3vw;
+    }
+}
+
+@media(max-width:700px){
+    .footer nav li{
+        font-size:15px;
+    }
+}
+
+@media(max-width:580px){
+    .footer nav li a{
+        font-size:12px;
+    }
+}
+
+@media(max-width:397px){
+    .footer nav li a{
+        font-size:3vw;
+    }
+}
+
+@media(max-width:900px){
+    .membercontainer{
+        margin-top:20vh;
+    }
+}
+
+@media(max-width:550px){
+    .membercontainer{
+        margin-top:25vh;
+    }
+}
+@media(max-width:370px){
+    .membercontainer{
+        margin-top:28vh;
+    }
+}

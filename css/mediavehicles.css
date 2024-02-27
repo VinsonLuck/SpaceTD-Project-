@@ -1,0 +1,219 @@
+@media (max-width:572px){
+    .WelcomeContainer h1{
+        font-size:6vw;
+    }
+
+    .WelcomeText img{
+        width:350px;
+    }
+    .welcomearrow{
+        display:none;
+    }
+}
+
+@media(max-width:768px){
+    .Falcon5{
+        border-color: white;
+        border-style: solid;
+    }
+    .Falcon5Profile{
+        display:flex;
+        flex-direction: column;
+        background-image:url(/image/Falcon\ 5.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:100%;
+       
+    }
+    .Falcon5Picture img{
+        display:none
+    }
+    
+    .Falcon5Point{
+        width:36vw;
+    }
+    .Falcon5Information{
+        margin-left:24vw;
+        font-size:2.4vw;
+        
+        margin-top:-2vw;
+        width:30vw;
+    }
+    .Falcon5information{
+        font-size:70vw;
+    }
+    .Falcon5Point h1{
+        font-size:2.5vw;
+        color:black;
+    }
+    .Falcon5Point h2{
+        font-size:3vw;
+    }
+    .Falcon5Total{
+        width:89vw;
+        margin-left:5vw;
+        margin-right:5vw;
+        margin-top:0vh;
+    }
+    .Falcon5Total h1{
+        font-size:8vw;
+    }
+    .Falcon5Total h2{
+        font-size:3.3vw;
+    }
+  
+}
+
+@media(max-width:768px){
+    .DragonXA3{
+        border-color: white;
+        border-style: solid;
+    }
+    .DragonXA3Profile{
+        display:flex;
+        flex-direction: column;
+        background-image:url(/image/DragonXA3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:100%;
+       
+    }
+    .DragonXA3Picture img{
+        display:none
+    }
+    
+    .DragonXA3Point{
+        width:36vw;
+        margin-top:2vw;
+    }
+
+    .DragonXA3Information{
+        margin-left:24vw;
+        font-size:2.5vw;
+        
+        margin-top:0;
+        
+    }
+ 
+    .DragonXA3Point h1{
+        font-size:2.5vw;
+        color:black;
+    }
+    .DragonXA3Point h2{
+        font-size:3vw;
+        
+    } 
+    .DragonXA3Total{
+        width:84vw;
+        margin-left:10vw;
+        margin-right:5vw;
+        margin-top:0;
+    }
+    .DragonXA3Total h1{
+        font-size:8vw;
+        
+    }
+    .DragonXA3Total h2{
+        font-size:3vw;
+     
+    }    
+}
+
+@media(max-width:768px){
+    .StarStruck{
+        border-color: white;
+        border-style: solid;
+    }
+    .StarStruckProfile{
+        display:flex;
+        flex-direction: column;
+        background-image:url(/image/star\ struck.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:100%;
+       
+    }
+    .StarStruckPicture img{
+        display:none
+    }
+    
+    .StarStruckPoint{
+        width:36vw;
+        margin-top:1vw;
+    }
+    .StarStruckInformation{
+        margin-left:24vw;
+        font-size:2.3vw;
+        
+        margin-top:5vw;
+        width:30vw;
+    color: white;
+    }
+   
+    .StarStruckPoint h1{
+        font-size:2.5vw;
+        color:black;
+    }
+    .StarStruckPoint h2{
+        font-size:3vw;
+    }
+    .StarStruckTotal{
+    width:89vw;
+        margin-left:5vw;
+        margin-right:5vw;
+        
+    }
+    .StarStruckTotal h1{
+        font-size:8vw;
+        color:white;
+    }
+    .StarStruckTotal h2{
+        font-size:3vw;
+        color:white;
+    }
+}
+
+@media(max-width:387px){
+    .Falcon5Total h2{
+        font-size:3vw;
+    }
+    .DragonXA3Total h2{
+        font-size:2.8vw;
+    }
+    .StarStruckTotal h2{
+        font-size:2.8vw;
+    }
+}
+
+@media(max-width:768px){
+    .footer nav a{
+        margin-top:3vw;
+    }
+}
+
+@media(max-width:700px){
+    .footer nav li{
+        font-size:15px;
+    }
+}
+
+@media(max-width:580px){
+    .footer nav li a{
+        font-size:12px;
+    }
+}
+
+@media(max-width:397px){
+    .footer nav li a{
+        font-size:3vw;
+    }
+}
+
+@media(max-width:400px){
+    .WelcomeText img{
+        width:80vw;
+    }
+}

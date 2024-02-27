@@ -1,0 +1,268 @@
+.LaunchPage{
+    margin-top:91px;
+    display:flex;
+    justify-content: center;
+}
+
+.LaunchTitle{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:5vh;
+}
+.SpaceTdTitleLogo img{
+    width:30vw;
+}
+.SpaceTdTitleLogo h1{
+    text-align: center;
+    font-family:myfont;
+    color:white;
+    font-weight:200;
+    text-decoration-line: underline;
+    text-decoration-skip: none;
+    
+    font-size:3.5vw;
+}
+
+.LaunchContent{
+    display:flex;
+}
+
+.contentnya1{
+    display:flex;
+    flex-direction:column;
+    margin-top:10vw;
+}
+.contenttitle1{
+    display:flex;
+    font-family: myeungjo;
+    justify-content: space-between;
+}
+
+.contenttitle1 h1{
+    color:White;
+    font-weight:400;
+    font-size:3vw;
+    
+}
+.tanggalcontent1{
+    color:white;
+    font-weight:400;
+}
+.contenttitle1 h2{
+    font-size:2vw;
+padding-top:1vh;
+}
+
+.gambardantulisan1{
+    display:flex;
+    flex-direction: column;
+    background-image: url(/image/mission1.jpg);
+    background-position:center;
+    background-size:cover;
+    width:50vw;
+    height:40vw;
+position:relative;
+}
+
+
+.contentinformation1{
+    display:flex;
+    
+    position:absolute;
+    bottom:0;
+    background-color:#d9d9d9;
+    font-family: myfont;
+    font-size:0.76vw;
+    height:8vw;
+    align-items: center;
+}
+.contentinformation1 h1{
+    margin-left:1vw;
+    margin-right:1vw;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* content2 */
+.contentnya2{
+    display:flex;
+    flex-direction:column;
+    margin-top:10vw;
+}
+.contenttitle2{
+    display:flex;
+    font-family: myeungjo;
+    justify-content: space-between;
+}
+
+.contenttitle2 h1{
+    color:White;
+    font-weight:400;
+    font-size:3vw;
+    
+}
+.tanggalcontent2{
+    color:white;
+    font-weight:400;
+}
+.contenttitle2 h2{
+    font-size:2vw;
+padding-top:1vh;
+}
+
+.gambardantulisan2{
+    display:flex;
+    flex-direction: column;
+    background-image: url(/image/mission2.jpg);
+    background-position:center;
+    background-size:cover;
+    width:50vw;
+    height:40vw;
+position:relative;
+}
+
+
+.contentinformation2{
+    display:flex;
+    
+    position:absolute;
+    bottom:0;
+    background-color:#d9d9d9;
+    font-family: myfont;
+    font-size:0.70vw;
+    height:8vw;
+    width:50vw;
+    align-items: center;
+    justify-content: center;
+}
+.contentinformation2 h1{
+    margin-left:1vw;
+    margin-right:1vw;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* content3 */
+.contentnya3{
+    display:flex;
+    flex-direction:column;
+    margin-top:10vw;
+}
+.contenttitle3{
+    display:flex;
+    font-family: myeungjo;
+    justify-content: space-between;
+}
+
+.contenttitle3 h1{
+    color:White;
+    font-weight:400;
+    font-size:3vw;
+    
+}
+.tanggalcontent3{
+    color:white;
+    font-weight:400;
+}
+.contenttitle3 h2{
+    font-size:2vw;
+padding-top:1vh;
+}
+
+.gambardantulisan3{
+    display:flex;
+    flex-direction: column;
+    background-image: url(/image/mission3.webp);
+    background-position:center;
+    background-size:cover;
+    width:50vw;
+    height:40vw;
+position:relative;
+}
+
+
+.contentinformation3{
+    display:flex;
+    position:absolute;
+    bottom:0;
+    background-color:#d9d9d9;
+    font-family: myfont;
+    font-size:0.70vw;
+    height:8vw;
+    width:50vw;
+    align-items: center;
+    justify-content: center;
+}
+.contentinformation3 h1{
+    margin-left:1vw;
+    margin-right:1vw;
+    text-align: center;
+    align-items: center;
+}
+
+
+.footer{
+    margin-top:15%;
+    bottom:0;
+      
+      width:100%;
+  }
+  
+  .footer nav{
+  background-color:black;
+  height:58px;
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+  }
+  
+  .footer nav li{
+      margin-top:15px;
+      
+      display:inline-block;
+      color:#b2a4a4;
+      text-decoration: none;
+      font-family: myfont;
+      font-weight:700;
+      font-size:20px;
+     
+      
+  }
+  
+  .footer nav li a{
+      color:#b2a4a4;
+      text-decoration: none;
+  }
+  .footer nav a img{
+      width:11px;
+     
+  }
+
+  @media(max-width:768px){
+    .footer nav a{
+        margin-top:3vw;
+    }
+}
+
+@media(max-width:700px){
+    .footer nav li{
+        font-size:15px;
+    }
+}
+
+@media(max-width:580px){
+    .footer nav li a{
+        font-size:12px;
+    }
+}
+
+@media(max-width:397px){
+    .footer nav li a{
+        font-size:3vw;
+    }
+}

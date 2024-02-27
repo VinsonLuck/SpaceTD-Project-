@@ -1,0 +1,585 @@
+
+.VehiclesPage{
+    margin-top:91px;
+}
+
+.WelcomeContainer{
+    background-image: url(/image/vehicleswelcome.jpg);
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.WelcomeText{
+    display:flex;
+    justify-content: center;
+  
+}
+
+.WelcomeText img{
+    width:500px;
+    margin-top:263px;
+    background-color: black;
+    border-radius:48px;
+    padding:10px 10px 10px 10px;
+}
+.WelcomeContainer h1{
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+    font-family:jacques;
+    font-weight:400;
+    font-size:45px;
+}
+
+.welcomearrow{
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+}
+
+.Falcon5{
+    width:100%;
+    Height:200%;
+    margin-top:100px;
+    display:flex;
+    justify-content: space-between;
+    background-color:#97A5c1;
+}
+
+.Falcon5Profile{
+    float:left;
+    width:100vw;
+}
+
+.Falcon5Title{
+    display:flex;
+    width:90%;
+    margin-top:5%;
+}
+
+.Falcon5Title h1{
+    font-family: myfont;
+    font-style: normal;
+    font-size:5vw;
+    margin-left:4vw;
+}
+
+.Falcon5Point{
+    display:flex;
+    flex-direction: column;
+    width:22vw;
+    margin-top:2vw;
+    margin-left:30px;
+    font-size:1vw;
+    
+}
+
+.Falcon5Point h1{
+    color:white;
+    float:left;
+    font-family:myfont;
+    font-weight:700;
+    
+}
+
+.Falcon5Point h2{
+    color:black;
+    float:right;
+    font-family:myfont;
+    font-weight: 700;
+    margin-left:10%;
+}
+
+.Falcon5Height{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+    margin-bottom:4px;
+}
+
+.Falcon5Diameter{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+    margin-bottom:4px;
+}
+
+.Falcon5Weight{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+    margin-bottom:4px;
+}
+
+.Falcon5FuelCapacity h2{
+    margin-top:10%;
+}
+
+.Falcon5FuelCapacity{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+    margin-bottom:4px;
+}
+
+.Falcon5MaximumLoad h2{
+    margin-top:10%;
+}
+
+.Falcon5MaximumLoad{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+}
+
+.Falcon5Together{
+    display:flex;
+}
+
+.Falcon5Information{
+    width:28vw;
+    margin-left:45px;
+    margin-top:25px;
+    font-size:2vw;
+    font-family:iceland;
+    font-weight: 400;
+    font-style:normal;
+}
+
+.Falcon5Total{
+display:flex;
+justify-content: row;
+margin-left:20px;
+width:60vw;
+}
+
+.Falcon5Total h1{
+    font-size:5.5vw;
+    font-family:exofont;
+    font-weight: 700;
+    font-style:normal;
+    margin-left:20%;
+}
+
+.Falcon5Total h2{
+    font-size:2vw;
+    font-family:exofont;
+    font-weight:700;
+    margin-top:-10%;
+}
+
+.Falcon5TotalLandings{
+    margin-left:2vw;
+}
+
+.Falcon5TotalReflights{
+    margin-left:2vw;
+}
+
+.Falcon5SeeMore{
+   margin-top:3%;
+    margin-left:4%;
+    
+}
+.Falcon5SeeMore h3{
+    background-color:#D9d9d9;
+    border-radius:44px;
+    font-size:1.7vw;
+    font-family:myfont;
+    height:70%;
+    padding:15px 10px 15px 10px;
+}
+
+.Falcon5SeeMore h3:hover{
+    background-color:black;
+    color:white;
+}
+
+.Falcon5Picture img{
+    width:35vw;
+    height:100%;
+    float:right;
+}
+
+
+
+/* DragonXA3 */
+.DragonXA3{
+    width:100%;
+    Height:200%;
+    margin-top:80px;
+    display:flex;
+    justify-content: space-between;
+    background-color:#97A5c1;
+}
+
+.DragonXA3Profile{
+    float:right;
+    width:100vw;
+}
+
+.DragonXA3Title{
+   
+   width:10vw;
+   
+}
+
+.DragonXA3Title h1{
+    font-family: myfont;
+    font-style: normal;
+    font-size:5vw;
+    margin-left:5vw;
+    margin-top:2vw;
+}
+
+.DragonXA3Point{
+    display:flex;
+    flex-direction: column;
+    width:22vw;
+    margin-top:30px;
+    margin-left:30px;
+    font-size:1vw;
+    
+}
+
+.DragonXA3Point h1{
+    color:white;
+    float:left;
+    font-family:myfont;
+    font-weight:700;
+    
+}
+
+.DragonXA3Point h2{
+    color:black;
+    float:right;
+    font-family:myfont;
+    font-weight: 700;
+    margin-left:10%;
+}
+
+.DragonXA3Height{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+    margin-bottom:4px;
+}
+
+.DragonXA3Diameter{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+    margin-bottom:4px;
+}
+
+.DragonXA3Weight{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+    margin-bottom:4px;
+}
+
+.DragonXA3FuelCapacity h2{
+    margin-top:10%;
+}
+
+.DragonXA3FuelCapacity{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+    margin-bottom:4px;
+}
+
+.DragonXA3MaximumLoad h2{
+    margin-top:10%;
+}
+
+.DragonXA3MaximumLoad{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+}
+
+.DragonXA3Together{
+    display:flex;
+}
+.DragonXA3Information{
+    width:24vw;
+    margin-left:45px;
+    margin-top:25px;
+    font-size:2vw;
+    font-family:iceland;
+    font-weight: 400;
+    font-style:normal;
+}
+
+.DragonXA3Total{
+display:flex;
+justify-content: row;
+margin-left:2px;
+width:57vw;
+}
+
+.DragonXA3Total h1{
+    font-size:5.5vw;
+    font-family:exofont;
+    font-weight: 700;
+    font-style:normal;
+    margin-left:20%;
+}
+
+.DragonXA3Total h2{
+    font-size:2vw;
+    font-family:exofont;
+    font-weight:700;
+    margin-top:-10%;
+}
+
+.DragonXA3TotalLandings{
+    margin-left:2%;
+}
+
+.DragonXA3TotalReflights{
+    margin-left:20px;
+}
+
+.DragonXA3SeeMore{
+   margin-top:5%;
+    margin-left:2.5%;
+}
+.DragonXA3SeeMore h3{
+    background-color:#D9d9d9;
+    border-radius:44px;
+    font-size:1.7vw;
+    font-family:myfont;
+    height:70%;
+    padding:15px 10px 15px 10px;
+    
+}
+
+.DragonXA3SeeMore h3:hover{
+    background-color:black;
+    color:white;
+}
+
+.DragonXA3Picture img{
+    width:40vw;
+    height:100%;
+    float:left;
+}
+
+
+/* StarStruck */
+.StarStruck{
+    width:100%;
+    Height:200%;
+    margin-top:80px;
+    display:flex;
+    justify-content: space-between;
+    background-color:#97A5c1;
+}
+
+.StarStruckProfile{
+    float:left;
+    width:100vw;
+}
+
+.StarStruckTitle{
+    display:flex;
+    width:80%;
+    margin-top:5vw;
+    margin-left:5%;
+}
+
+.StarStruckTitle h1{
+    font-family: myfont;
+    font-style: normal;
+    font-size:5vw;
+}
+
+.StarStruckPoint{
+    display:flex;
+    flex-direction: column;
+    width:22vw;
+    margin-top:30px;
+    margin-left:30px;
+    font-size:1vw;
+    
+}
+
+.StarStruckPoint h1{
+    color:white;
+    float:left;
+    font-family:myfont;
+    font-weight:700;
+    
+}
+
+.StarStruckPoint h2{
+    color:black;
+    float:right;
+    font-family:myfont;
+    font-weight: 700;
+    margin-left:10%;
+}
+
+.StarStruckHeight{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+    margin-bottom:4px;
+}
+
+.StarStruckDiameter{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+    margin-bottom:4px;
+}
+
+.StarStruckWeight{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+    margin-bottom:4px;
+}
+
+.StarStruckFuelCapacity h2{
+    margin-top:10%;
+}
+
+.StarStruckFuelCapacity{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+    margin-bottom:4px;
+}
+
+.StarStruckMaximumLoad h2{
+    margin-top:10%;
+}
+
+.StarStruckMaximumLoad{
+    border-bottom-style:solid;
+    border-color:#c1c1c1;
+    border-width:3px;
+}
+
+.StarStruckTogether{
+    display:flex;
+}
+.StarStruckInformation{
+    width:28vw;
+    margin-left:45px;
+    margin-top:25px;
+    font-size:2vw;
+    font-family:iceland;
+    font-weight: 400;
+    font-style:normal;
+}
+
+.StarStruckTotal{
+display:flex;
+justify-content: row;
+margin-left:20px;
+width:60vw;
+}
+
+.StarStruckTotal h1{
+    font-size:5.5vw;
+    font-family:exofont;
+    font-weight: 700;
+    font-style:normal;
+    margin-left:20%;
+}
+
+.StarStruckTotal h2{
+    font-size:2vw;
+    font-family:exofont;
+    font-weight:700;
+    margin-top:-10%;
+}
+
+.StarStruckTotalLandings{
+    margin-left:20px;
+}
+
+.StarStruckTotalReflights{
+    margin-left:20px;
+}
+
+.StarStruckSeeMore{
+   margin-top:3%;
+    margin-left:4%;
+    
+}
+.StarStruckSeeMore h3{
+    background-color:#D9d9d9;
+    border-radius:44px;
+    font-size:1.7vw;
+    font-family:myfont;
+    height:70%;
+    padding:15px 10px 15px 10px;
+}
+
+.StarStruckSeeMore h3:hover{
+    background-color:black;
+    color:white;
+}
+
+.StarStruckPicture img{
+    width:35vw;
+    height:100%;
+    float:right;
+}
+
+.footer{
+    margin-top:15%;
+    bottom:0;
+      
+      width:100%;
+  }
+  
+  .footer nav{
+    background-color:black;
+    height:58px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .footer nav li{
+      margin-top:15px;
+      
+      display:inline-block;
+      color:#b2a4a4;
+      text-decoration: none;
+      font-family: myfont;
+      font-weight:700;
+      font-size:20px;
+     
+      
+  }
+  
+  .footer nav li a{
+      color:#b2a4a4;
+      text-decoration: none;
+  }
+  .footer nav a img{
+      width:11px;
+     
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

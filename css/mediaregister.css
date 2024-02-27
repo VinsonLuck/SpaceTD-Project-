@@ -1,0 +1,146 @@
+@media(max-width:942px){
+    .Registration{
+        font-size:2vw;
+    }
+    .FormContainer{
+        margin-top:4vh;
+    }
+
+    .agree span{
+        font-size:1vw;
+    }
+    .agree p{
+        font-size:1vw;
+    }
+}
+
+@media(max-width:750px){
+    .Registration{
+        font-size:1.6vw;
+    }
+    .FormContainer{
+        margin-top:4.6vh;
+    }
+    .FormRegistrationContainer{
+        height:80%;
+    }
+    .agree span{
+        font-size:1vw;
+    }
+    .agree p{
+        font-size:1vw;
+    }
+}
+@media(max-width:659px){
+    .FormRegistrationContainer{
+        height:70%;
+    }
+}
+@media(max-width:659px){
+    .FormRegistrationContainer{
+        display:flex;
+        flex-direction: column;
+    }
+    .LeftForm{
+        display:flex;
+        width:67vw;
+        border-top-right-radius:28px ;
+        border-bottom-left-radius: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .LeftForm img{
+        margin-left:0;
+        width:58vw;
+    }
+    .RightForm{
+        width:100%;
+    }
+    .Registration{
+        text-align: center;
+        font-size:2vw;
+    }
+    .garis{
+        width:30vw;
+        left:18vw;
+    }
+    
+    .FormContainer{
+        margin-top:-2vh;
+        justify-content: center;
+    }
+    input,select{
+        width:24vw;
+        font-size:2.5vw
+    }
+    .FormContainer h3{
+        font-size:2.5vw;
+    }
+    ::placeholder{
+        font-size:2.3vw;
+    }
+    .selectnasional{
+        font-size:2.1vw;
+    }
+    .ProgramSelect{
+        font-size:2.1vw;
+    }
+    .tombolgender{
+        font-size:2vw;
+    }
+    .kiri div{
+        margin-top:3vh;
+    }
+
+    .kanan div{
+        margin-top:3vh;
+    }
+    .LeftForm{
+        height:20%;
+    }
+    .agree{
+        margin-top:3vw;
+    }
+    .agree p{
+        font-size:2vw;
+        margin-left:1vw;
+    }
+    .agree span{
+        font-size:2vw;
+    }
+    .agree input{
+        width:2vw;
+    }
+    .registerbutton{
+        margin-top:1vh;
+    }
+    .registerbutton{
+        font-size:6vw;
+        width:50vw;
+        height:6vw;
+    }
+    .JoinUsAtSpace{
+        margin-top:-0.2vh;
+        font-size:3vw;
+    }
+    
+}
+
+@media(max-width:450px){
+    .kiri div{
+        margin-top:4vh;
+    }
+    .kanan div{
+        margin-top:4vh;
+    }
+
+}
+
+@media(max-width:356px){
+    .kiri div{
+        margin-top:5vh;
+    }
+    .kanan div{
+        margin-top:5vh;
+    }
+}
